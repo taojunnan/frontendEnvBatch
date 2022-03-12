@@ -16,10 +16,10 @@
 
 ## 工具说明
 
-| 工具             | 说明                                                         |
-| ---------------- | ------------------------------------------------------------ |
-| `7za.exe`        | `7z`用于解压zip包                                            |
-| `refreshenv.bat` | 用于刷新环境变量，刚设好环境变量不能立马在当前窗口生效，需要用这个脚本刷新下，[来自这里](https://github.com/chocolatey/choco/blob/master/src/chocolatey.resources/redirects/RefreshEnv.cmd) |
+| 工具                                                         | 说明                                                         |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| `7za.exe`                                                    | `7z`用于解压zip包                                            |
+| [`refreshenv.bat`](https://github.com/chocolatey/choco/blob/master/src/chocolatey.resources/redirects/RefreshEnv.cmd) | 用于刷新环境变量，刚设好环境变量不能立马在当前窗口生效，需要用这个脚本刷新下 |
 
 以上两个工具均从官方下载，为了在脚本中下载方便我把它们上传到了`OSS`中，仓库的[`util`目录](./util)可以看到这两个工具。  
 
@@ -31,12 +31,12 @@
 | --------------- | ------------------------------------------------------------ |
 | `nodejsVersion` | 待安装的`nodejs`版本，默认`14.19.0`                          |
 | `nodejsBit`     | 待安装的`nodejs` 是`64`或`32`位，填`32`或`64`，默认`64`位    |
-| `baseDir`       | 基础目录，可以修改成自己的，默认`D:\ProgramFiles`            |
-| `nodeDir`       | `nodejs`安装到的目录，默认`%baseDir%\nodejs`                 |
+| `baseDir`       | 基础目录，所有东西都会安装在这个目录下，默认`D:\ProgramFiles` |
+| `nodeDir`       | `nodejs`安装目录，默认`%baseDir%\nodejs`                     |
 | `nodeGlobalDir` | `npm`全局目录，默认`%nodeDir%\node_global`                   |
 | `nodeCacheDir`  | `npm`缓存目录，默认`%nodeDir%\node_cache`                    |
 | `gitDir`        | `git`安装目录，默认`%baseDir%\Git`                           |
-| `gitUrl`        | `git`安装包的下载地址，默认从`npmmirror.com`上下载`v2.35.1-x64`版本 |
+| `gitUrl`        | `git`安装包的下载地址，默认下载`v2.35.1-x64`版本             |
 
 ## 另外
 
