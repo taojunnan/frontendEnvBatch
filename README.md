@@ -4,7 +4,7 @@
 
 ## 如何使用
 
-将`install.bat`下载至本地，右键以管理员身份运行即可。
+将`install.bat`[下载](https://github.com/taojunnan/frontendEnvBatch/releases)至本地，右键以管理员身份运行即可。
 
 ## 工具说明
 
@@ -13,7 +13,7 @@
 | 7za.exe        | 7z用于解压zip包                                              |
 | refreshenv.bat | 用于刷新环境变量，刚设好环境变量不能立马在当前窗口生效，需要用这个脚本刷新下，[来自这里](https://github.com/chocolatey/choco/blob/master/src/chocolatey.resources/redirects/RefreshEnv.cmd) |
 
-以上两个工具均从官方下载，为了在脚本中下载方便我把它们上传到了OSS中，仓库的[util](./util)中可以看到这两个工具。  
+以上两个工具均从官方下载，为了在脚本中下载方便我把它们上传到了OSS中，仓库的[util目录](./util)可以看到这两个工具。  
 
 脚本运行时会检测`install.bat`同级目录下有无这两个工具，没有再去OSS中下载。运行时，可以将这两个工具放在和`install.bat`同级目录，这样可以省去脚本去下载的过程，当然为了方便，无论在哪，你只要运行`install.bat`，脚本都会帮你一键配置好环境。
 
