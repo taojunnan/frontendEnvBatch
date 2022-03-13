@@ -38,6 +38,10 @@
 | `gitDir`        | `git`安装目录，默认`%baseDir%\Git`                           |
 | `gitUrl`        | `git`安装包的下载地址，默认下载`v2.35.1-x64`版本             |
 
+## 流程图
+
+更多细节可以在这里看到，[链接](https://www.processon.com/view/link/622d55f91efad407e98d8dd7)
+
 ## 另外
 
 脚本运行时生成(`config.inf`)或下载的文件(`7za.exe`，`refreshEnv.bat`，`nodejs.zip`，`git-setup.exe`等)都可以删除，没有任何影响。不过，建议留着它们，脚本再次运行时会减少去下载它们的耗时。
